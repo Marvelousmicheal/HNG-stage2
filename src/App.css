@@ -1,0 +1,141 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white-color: white;
+  --gray-color: #eaecf0;
+  --gray-color2: #667085;
+}
+body {
+  background-color: var(--white-color);
+}
+.container {
+  width: 1216px;
+  height: 1140px;
+  margin: 0 auto;
+}
+
+.main-section {
+  padding-top: 64px;
+  height: 774px;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  width: inherit;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header > #profile_img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+header > h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+}
+header span {
+  border-radius: 50%;
+  border: 1px dashed var(--gray-color2);
+  padding: 14px;
+  position: absolute;
+  right: 250px;
+}
+#threedot-icon {
+  display: none;
+}
+#slack {
+  display: none;
+}
+
+.linksection {
+  width: inherit;
+  height: auto;
+  margin: 48px 0;
+  display: flex;
+  flex-direction: column;
+
+  gap: 24px;
+}
+
+.linksection a {
+  width: inherit;
+  padding: 24px 32px;
+  background-color: var(--gray-color);
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 28px;
+  font-size: 18px;
+  color: black;
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+.social-links {
+  width: 100%;
+  padding: 24px 32px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.links {
+  width: auto;
+  height: inherit;
+}
+.social-links > .links > a {
+  padding: 24px 32px;
+  background-color: transparent;
+}
+footer {
+  width: 100%;
+}
+.footer {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 100px;
+}
+.footer > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--gray-color2);
+  line-height: 24px;
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 343px;
+    margin: 0 auto;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .footer > p {
+    margin: 15px 0;
+  }
+  #forward-icon {
+    display: none;
+  }
+  #threedot-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -20px;
+  }
+}

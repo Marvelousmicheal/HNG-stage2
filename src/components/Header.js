@@ -5,7 +5,7 @@ function Header() {
   return (
     <>
       <header>
-        <img src="/images/balloon.jpg" alt="profile" id="profile_img" />
+        <img src="/images/profile-image.jpeg" alt="profile" id="profile_img" />
         <h3 id="twitter">MarveLous_OD</h3>
         <h3 id="slack">LuCode</h3>
         <span id="forward-icon">

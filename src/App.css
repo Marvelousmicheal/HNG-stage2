@@ -15,7 +15,7 @@ body {
   background-color: var(--white-color);
 }
 .container {
-  width: 1216px;
+  width: 95vw;
   height: 1140px;
   margin: 0 auto;
 }
@@ -116,11 +116,7 @@ footer {
   line-height: 24px;
 }
 
-@media only screen and (max-width: 375px) {
-  .container {
-    width: 343px;
-    margin: 0 auto;
-  }
+@media only screen and (max-width: 780px) {
 
   .footer {
     display: block;
@@ -139,3 +135,4 @@ footer {
     top: -20px;
   }
 }
+

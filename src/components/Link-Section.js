@@ -27,6 +27,9 @@ function LinkSection() {
         <a href="https://books.zuri.team/design-rules" id="book_design">
           design books
         </a>
+        <a href="#" id="Contact">
+          Contact
+        </a>
         <div className="social-links">
           <div className="links">
             <a href="https://app.slack.com/client/T042F7V19Q8/C041V6WKAUS/rimeto_profile/U047Z4GGHDM">

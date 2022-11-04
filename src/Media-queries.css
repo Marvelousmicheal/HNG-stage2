@@ -1,0 +1,90 @@
+@media only screen and (max-width: 780px) {
+  .form-main {
+    width: inherit;
+  }
+  .form-content {
+    position: absolute;
+    top: 40%;
+  }
+  form {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .contact {
+    width: 95vw;
+  }
+  .container {
+    width: 95vw;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .footer > p {
+    margin: 15px 0;
+  }
+  #forward-icon {
+    display: none;
+  }
+  #threedot-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -20px;
+  }
+  .contact {
+    width: 90vw;
+  }
+  .form-main {
+    width: inherit;
+  }
+
+  .contact-header {
+    padding: 5px;
+    word-wrap: normal;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .contact {
+    height: 67.625rem;
+  }
+  .name {
+    display: block;
+    height: auto;
+  }
+
+  .form-holder {
+    height: auto;
+    margin-top: 3rem;
+  }
+  .firstname {
+    margin-bottom: 24px;
+  }
+  .header-text > h2 {
+    margin-bottom: 1rem;
+  }
+  .header-text > p {
+    font-size: 18px;
+
+    line-height: 28px;
+  }
+  .checkbox {
+    display: flex;
+  }
+  .checkbox > label {
+    padding: 0 1rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .contact {
+    width: 85vw;
+  }
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

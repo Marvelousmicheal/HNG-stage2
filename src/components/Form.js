@@ -28,21 +28,21 @@ function Form() {
       <form onSubmit={handleSubmit}>
         <div className="form-holder">
           <div className="name input-height">
-            <div className="i-container">
+            <div className=" firstname i-container">
               <label htmlFor="firstname">First Name</label>
               <input
                 type="text"
-                id="firstname"
+                id="first_name"
                 placeholder="Enter First Name"
                 onChange={handleChange}
                 name="firstName"
                 value={holdData.firstName}
               />
             </div>
-            <div className="i-container">
+            <div className=".i-container">
               <label htmlFor="lastname">Last Name</label>
               <input
-                id="lastname"
+                id="last_name"
                 type="text"
                 placeholder="Enter Last Name"
                 onChange={handleChange}
@@ -85,7 +85,7 @@ function Form() {
             </label>
           </div>
         </div>
-        <button>send message</button>
+        <button id="btn_submit">send message</button>
       </form>
     </>
   );

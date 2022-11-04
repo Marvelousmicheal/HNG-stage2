@@ -3,7 +3,7 @@ import ContactHeader from "./ContactHeader";
 import Footer from "./Footer";
 import Form from "./Form";
 
-function Contact() {
+export function Contact() {
   return (
     <>
       <section className="contact">

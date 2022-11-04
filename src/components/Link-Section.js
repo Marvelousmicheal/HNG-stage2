@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaSlack } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function LinkSection() {
   return (
@@ -27,9 +28,9 @@ function LinkSection() {
         <a href="https://books.zuri.team/design-rules" id="book_design">
           design books
         </a>
-        <a href="#" id="Contact">
-          Contact
-        </a>
+        <Link to="contact">
+          <a id="Contact">Contact</a>
+        </Link>
         <div className="social-links">
           <div className="links">
             <a href="https://app.slack.com/client/T042F7V19Q8/C041V6WKAUS/rimeto_profile/U047Z4GGHDM">

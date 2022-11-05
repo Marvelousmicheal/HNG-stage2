@@ -201,6 +201,9 @@ form {
   grid-template-columns: 1fr 1fr;
   gap: 25px;
 }
+.name > input {
+  outline: 1px solid black;
+}
 label {
   font-size: 14px;
   font-weight: 500;
@@ -220,14 +223,14 @@ input {
   background: #ffffff;
   padding: 10px 14px;
   width: 100%;
+  outline: none;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
 }
 #email,
 #lastname,
 #firstname {
   height: 44px;
-  border-radius: 8px;
-  outline: none;
-  border: 1px solid #d0d5dd;
 }
 ::placeholder,
 label:last-child {

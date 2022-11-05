@@ -39,7 +39,7 @@ function Form() {
                 value={holdData.firstName}
               />
             </div>
-            <div className=".i-container">
+            <div className="i-container">
               <label htmlFor="lastname">Last Name</label>
               <input
                 id="last_name"

@@ -81,7 +81,7 @@ function Form() {
               checked={holdData.haveAgreed}
             />
             <label htmlFor="checkbox">
-              You agree to providing your data to (name) who may contact you
+              You agree to providing your data to Marvelous who may contact you
             </label>
           </div>
         </div>
